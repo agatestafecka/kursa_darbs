@@ -1,0 +1,1 @@
+print("Šis ir mans kursa darbs!")
