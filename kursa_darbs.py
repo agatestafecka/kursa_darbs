@@ -163,15 +163,15 @@ nosacijums_2 = False
 
 
 while nosacijums != False:
-    r = int(input("(spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
-    k = int(input("(spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
+    r = int(input("(1.spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
+    k = int(input("(1.spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
 
     if arr[r-1][k-1] == ("(x)") or arr[r-1][k-1] == ("(O)"):
         print("Jūsu spēles laukums jau bija izvēlēts!")
         print("Mēģiniet vēlreiz!")
         while nosacijums_2 == False:
-            r = int(input("(spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
-            k = int(input("(spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
+            r = int(input("(2.spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
+            k = int(input("(2.spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
             if arr[r-1][k-1] == ("( )"):
                 arr[r-1][k-1] = ("(x)")
                 nosacijums_2 = True
