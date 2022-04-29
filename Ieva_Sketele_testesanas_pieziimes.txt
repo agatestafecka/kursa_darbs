@@ -1,5 +1,9 @@
 03/04 - 31 līnija drukas kļūdas
-03/04 - spelejot pret datoru, viņš aizvietoja jau izmantotu lauciņu
+03/04 - spelejot pret otru spēlētāju, viņš aizvietoja jau izmantotu lauciņu
+03/04 - 
 
+10/04 - spelejot pret datoru, pec katra gajiena speles laukums notīras/nesaglabajas ierakstītās vērtības
+
+24/04 - vienkārši pamanītas dažas drukas kļūdas, citu kļūdu darbā nav ievērots
 
 29/04 - pedejais tests - viss darbojas kā ieplānots
