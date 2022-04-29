@@ -1,1 +1,5 @@
+03/04 - 31 līnija drukas kļūdas
+03/04 - spelejot pret datoru, viņš aizvietoja jau izmantotu lauciņu
 
+
+29/04 - pedejais tests - viss darbojas kā ieplānots
