@@ -1,4 +1,5 @@
-print("Šis ir mans kursa darbs!")
+a = "Šis ir mans kursa darbs!"
+print(a)
 
 import random
 print()
@@ -263,4 +264,10 @@ while nosacijums != False:
     elif arr[0][2] == ("(O)") and arr[1][1] == ("(O)") and arr[2][0] == ("(O)"):
         print("Dators uzvarēja")
         break
-print("Paldies par spēli!")
+print("")
+mytuple = ("Paldies", "par", "spēli!")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
