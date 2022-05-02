@@ -1,13 +1,13 @@
-a = "Šis ir mans kursa darbs!"
-print(a)
+a = "Šis ir mans kursa darbs!" # string tipa mainīgais
+print(a) 
 
-import random
+import random # tiek importēta random bibliotēka
 print()
 x = 0 
 
-rows, cols = (3, 3) 
+rows, cols = (3, 3) # rindas un kolonnas
 arr=[] 
-for i in range(cols): 
+for i in range(cols): # tiek izveidots spēles laukums
     col = [] 
     for j in range(rows): 
         col.append("( )")
@@ -24,7 +24,7 @@ for i in range(rows):
 print()
 
 
-nosacijums = True
+nosacijums = True # izmanto kā while argumentu cikla izpildei
 nosacijums_2 = False
 
 
