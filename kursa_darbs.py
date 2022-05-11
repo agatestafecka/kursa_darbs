@@ -1,5 +1,5 @@
 f = open("rezultats.txt", "a", encoding="UTF-8") # lai var atvērt txt failu, kur ierakstīt rezultātus
-import random # tiek importēta random bibliotēka
+import random
 print()
 a = "Šis ir mans kursa darbs!" # string tipa mainīgais
 print(a) 
@@ -10,6 +10,15 @@ def vardss():
     global vards
     vards = input("Ievadiet savu vārdu: ")
 
+def laukuma_izvade(rows):
+    cols = rows
+    for i in range(rows):
+        for j in range(cols):
+            print(arr[i][j], end=" ")
+        print()
+    print()
+
+vardss()
 print(f"Sveicināti {vards}!")
 print()
 
@@ -25,12 +34,7 @@ print("Spēlētājam jāievada rindas un kolonnas numurs, kurā vēlas ievietot 
 print("Pirmais spēlētājs, kurš iegūs attiecīgo simbolu skaitu 3, (rindā, kolonnā vai diagonāli) uzvarēs.")
 print("Spēles laukums:")
 
-for i in range(rows):
-    for j in range(cols):
-        print(arr[i][j], end=" ")
-    print()
-print()
-
+laukuma_izvade(rows)
 
 nosacijums_2 = False
 
@@ -55,10 +59,7 @@ while True:
         arr[r-1][k-1] = ("(x)")
     print()
 
-    for i in range(rows):
-        for j in range(cols):
-            print(arr[i][j], end=" ")
-        print()
+    laukuma_izvade(rows)
 
     if arr[0][0] == ("(x)") and arr[0][1] == ("(x)") and arr[0][2] == ("(x)"): 
         print("Jūs uzvarējāt!")
@@ -128,10 +129,7 @@ while True:
         arr[rr-1][kk-1] = ("(O)")
     print()
 
-    for i in range(rows):
-        for j in range(cols):
-            print(arr[i][j], end=" ")
-        print()
+    laukuma_izvade(rows)
 
     if arr[0][0] == ("(O)") and arr[0][1] == ("(O)") and arr[0][2] == ("(O)"): 
         print("Jūs uzvarējāt!")
@@ -174,10 +172,10 @@ while True:
         False
         break
 
-print("Paldies par spēli!")
+print(f"Paldies par spēli {vards}!")
 print("")
 mytuple = ("Paldies", "par", "spēli!")
-f.write("Paldies par spēli!\n")
+f.write(f"Paldies par spēli {vards}!\n")
 myit = iter(mytuple)
 
 print(next(myit))
