@@ -1,7 +1,7 @@
+f = open("rezultats.txt", "a", encoding="UTF-8") # lai var atvērt txt failu, kur ierakstīt rezultātus
+import random # tiek importēta random bibliotēka
 a = "Šis ir mans kursa darbs!" # string tipa mainīgais
 print(a) 
-
-import random # tiek importēta random bibliotēka
 print()
 x = 0 
 
@@ -56,27 +56,35 @@ while nosacijums != False:
 
     if arr[0][0] == ("(x)") and arr[0][1] == ("(x)") and arr[0][2] == ("(x)"): 
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[1][0] == ("(x)") and arr[1][1] == ("(x)") and arr[1][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[2][0] == ("(x)") and arr[2][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(x)") and arr[1][0] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][1] == ("(x)") and arr[1][1] == ("(x)") and arr[2][1] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(x)") and arr[1][2] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(x)") and arr[1][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(x)") and arr[1][1] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     if x == 4:
         print("Neizšķirts!")
@@ -112,30 +120,37 @@ while nosacijums != False:
 
     if arr[0][0] == ("(O)") and arr[0][1] == ("(O)") and arr[0][2] == ("(O)"): 
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[1][0] == ("(O)") and arr[1][1] == ("(O)") and arr[1][2] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[2][0] == ("(O)") and arr[2][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(O)") and arr[1][0] == ("(O)") and arr[2][0] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][1] == ("(O)") and arr[1][1] == ("(O)") and arr[2][1] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(O)") and arr[1][2] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(O)") and arr[1][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(O)") and arr[1][1] == ("(O)") and arr[2][0] == ("(O)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
 print("Paldies par spēli!")
-        
         
 print()
 x = 0 
@@ -191,30 +206,39 @@ while nosacijums != False:
 
     if arr[0][0] == ("(x)") and arr[0][1] == ("(x)") and arr[0][2] == ("(x)"): 
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[1][0] == ("(x)") and arr[1][1] == ("(x)") and arr[1][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[2][0] == ("(x)") and arr[2][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(x)") and arr[1][0] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][1] == ("(x)") and arr[1][1] == ("(x)") and arr[2][1] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(x)") and arr[1][2] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][0] == ("(x)") and arr[1][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     elif arr[0][2] == ("(x)") and arr[1][1] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
+        f.write("Jūs uzvarējāt!")
         break
     if x == 4:
         print("Neizšķirts!")
+        f.write("Neizšķirts")
         break
     x = x+1
 
@@ -242,30 +266,39 @@ while nosacijums != False:
 
     if arr[0][0] == ("(O)") and arr[0][1] == ("(O)") and arr[0][2] == ("(O)"): 
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[1][0] == ("(O)") and arr[1][1] == ("(O)") and arr[1][2] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[2][0] == ("(O)") and arr[2][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[0][0] == ("(O)") and arr[1][0] == ("(O)") and arr[2][0] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[0][1] == ("(O)") and arr[1][1] == ("(O)") and arr[2][1] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[0][2] == ("(O)") and arr[1][2] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[0][0] == ("(O)") and arr[1][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
     elif arr[0][2] == ("(O)") and arr[1][1] == ("(O)") and arr[2][0] == ("(O)"):
         print("Dators uzvarēja")
+        f.write("Dators uzvarēja")
         break
 print("")
 mytuple = ("Paldies", "par", "spēli!")
+f.write("Paldies par spēli!\n")
 myit = iter(mytuple)
 
 print(next(myit))
