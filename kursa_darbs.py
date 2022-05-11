@@ -28,7 +28,7 @@ nosacijums = True # izmanto kā while argumentu cikla izpildei
 nosacijums_2 = False
 
 
-while nosacijums != False:
+while True:
     r = int(input("(1.spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
     k = int(input("(1.spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
 
@@ -57,37 +57,46 @@ while nosacijums != False:
     if arr[0][0] == ("(x)") and arr[0][1] == ("(x)") and arr[0][2] == ("(x)"): 
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[1][0] == ("(x)") and arr[1][1] == ("(x)") and arr[1][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[2][0] == ("(x)") and arr[2][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(x)") and arr[1][0] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][1] == ("(x)") and arr[1][1] == ("(x)") and arr[2][1] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(x)") and arr[1][2] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(x)") and arr[1][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(x)") and arr[1][1] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     if x == 4:
         print("Neizšķirts!")
+        False
         break
     x = x+1
 
@@ -121,34 +130,42 @@ while nosacijums != False:
     if arr[0][0] == ("(O)") and arr[0][1] == ("(O)") and arr[0][2] == ("(O)"): 
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[1][0] == ("(O)") and arr[1][1] == ("(O)") and arr[1][2] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[2][0] == ("(O)") and arr[2][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(O)") and arr[1][0] == ("(O)") and arr[2][0] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][1] == ("(O)") and arr[1][1] == ("(O)") and arr[2][1] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(O)") and arr[1][2] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(O)") and arr[1][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(O)") and arr[1][1] == ("(O)") and arr[2][0] == ("(O)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
 print("Paldies par spēli!")
         
@@ -178,7 +195,7 @@ nosacijums = True
 nosacijums_2 = False
 
 
-while nosacijums != False:
+while True:
     r = int(input("(1.spēlētājs)Ievadiet rindas numuru, kuru vēlaties atzīmēt ar (x): "))
     k = int(input("(1.spēlētājs)Ievadiet kolonnas numuru, kuru vēlaties atzīmēt ar (x) : "))
 
@@ -207,38 +224,47 @@ while nosacijums != False:
     if arr[0][0] == ("(x)") and arr[0][1] == ("(x)") and arr[0][2] == ("(x)"): 
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[1][0] == ("(x)") and arr[1][1] == ("(x)") and arr[1][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[2][0] == ("(x)") and arr[2][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(x)") and arr[1][0] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][1] == ("(x)") and arr[1][1] == ("(x)") and arr[2][1] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(x)") and arr[1][2] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][0] == ("(x)") and arr[1][1] == ("(x)") and arr[2][2] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     elif arr[0][2] == ("(x)") and arr[1][1] == ("(x)") and arr[2][0] == ("(x)"):
         print("Jūs uzvarējāt!")
         f.write("Jūs uzvarējāt!")
+        False
         break
     if x == 4:
         print("Neizšķirts!")
         f.write("Neizšķirts")
+        False
         break
     x = x+1
 
@@ -267,34 +293,42 @@ while nosacijums != False:
     if arr[0][0] == ("(O)") and arr[0][1] == ("(O)") and arr[0][2] == ("(O)"): 
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[1][0] == ("(O)") and arr[1][1] == ("(O)") and arr[1][2] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[2][0] == ("(O)") and arr[2][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[0][0] == ("(O)") and arr[1][0] == ("(O)") and arr[2][0] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[0][1] == ("(O)") and arr[1][1] == ("(O)") and arr[2][1] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[0][2] == ("(O)") and arr[1][2] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[0][0] == ("(O)") and arr[1][1] == ("(O)") and arr[2][2] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
     elif arr[0][2] == ("(O)") and arr[1][1] == ("(O)") and arr[2][0] == ("(O)"):
         print("Dators uzvarēja")
         f.write("Dators uzvarēja")
+        False
         break
 print("")
 mytuple = ("Paldies", "par", "spēli!")
