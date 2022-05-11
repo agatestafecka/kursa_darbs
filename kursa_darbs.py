@@ -1,9 +1,17 @@
 f = open("rezultats.txt", "a", encoding="UTF-8") # lai var atvērt txt failu, kur ierakstīt rezultātus
 import random # tiek importēta random bibliotēka
+print()
 a = "Šis ir mans kursa darbs!" # string tipa mainīgais
 print(a) 
 print()
 x = 0 
+
+def vardss():
+    global vards
+    vards = input("Ievadiet savu vārdu: ")
+
+print(f"Sveicināti {vards}!")
+print()
 
 rows, cols = (3, 3) # rindas un kolonnas
 arr=[] 
